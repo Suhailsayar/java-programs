@@ -1,5 +1,5 @@
 public class myfirstprogram {
-    public static void main(String[]) {
+    public static void main(String S[]) {
         System.out.println("Hello, World!");
     }
 }
