@@ -1,4 +1,4 @@
-class Room {
+class RoomArea {
   float length;
   float breadth;
 
@@ -6,12 +6,8 @@ class Room {
     length = l;
     breadth = b;
   }
-
-}
-
-class RoomArea {
   public static void main(String a[]){
-    Room r = new Room();
+    RoomArea r = new RoomArea();
     r.get(10.5f, 20.0f);
     float area = r.length * r.breadth;
     System.out.println("Area of the room is: " + area);
